@@ -4,7 +4,7 @@ mod utils;
 
 #[allow(clippy::implicit_hasher)]
 pub fn convert(amount: f64, from: &str, to: &str, base: &str, rates: HashMap<&str, f64>) -> f64 {
-    (amount * 100.0) * utils::get_rate(base, rates, from, to) / 100.0
+    amount * utils::get_rate(base, rates, from, to)
 }
 
 #[cfg(test)]
