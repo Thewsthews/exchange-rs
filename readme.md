@@ -8,7 +8,7 @@
 
 This Rust crate is a port of the [Cashify](https://github.com/xxczaki/cashify/) npm package from the same author. API is not the same.
 
-## Documentation
+## Documentation 🗒️
 
 - [Full API documentation](https://docs.rs/cashify)
 
