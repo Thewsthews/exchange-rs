@@ -21,7 +21,7 @@ Simply add the corresponding entry to your `Cargo.toml` dependency list:
 cashify = "0.1"
 ```
 
-## Usage
+## Usage ✔️
 
 The following example uses [Serde JSON](https://github.com/serde-rs/json) as strongly typed data structures. Instead of manually specifying rates, you can obtain them from an API, like [Exchange Rates API](https://exchangeratesapi.io/).
 
